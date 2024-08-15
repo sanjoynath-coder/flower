@@ -68,4 +68,25 @@ width: 200px;
 height: 250px;
 padding-top:20px;
 }
+
+/* ====responsive mini section style start */
+.mini-container{
+    width:576px;
+}
+.mini-img-container{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.mini-img-1 img{
+    padding-left: 60px;
+}
+.mini-img-2 img{
+padding-top:70px;
+padding-left: 55px;
+}
+.mini-img-3 img{
+padding-top:70px;
+}
 }

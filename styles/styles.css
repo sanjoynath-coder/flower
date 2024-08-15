@@ -248,3 +248,35 @@
     color:rgb(39, 39, 39);
 }
 /* ==== our feature style end===*/
+
+/* ====mini section style start===== */
+.mini-container{
+    width:100%;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top:50px;
+}
+.mini-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding:50px 50px;
+    align-items: center;
+}
+.mini-img-1 img{
+padding-left: 40px;
+margin-bottom: 20px;
+}
+.mini-img-2 img{
+padding-left:40px;
+margin-bottom: 20px;
+}
+.mini-img-3 img{
+padding-left:20px;
+margin-bottom: 20px;
+}
+.mini-img-1, .mini-img-2, .mini-img-3 p{
+    font-size:1rem;
+    font-weight: 700;
+    color:rgba(39, 39, 39, 0.8);
+    
+}
+/* ==== mini section style end here */
