@@ -69,7 +69,7 @@ height: 250px;
 padding-top:20px;
 }
 
-/* ====responsive mini section style start */
+/* ====responsive mini section style start====*/
 .mini-container{
     width:576px;
 }
@@ -88,5 +88,21 @@ padding-left: 55px;
 }
 .mini-img-3 img{
 padding-top:70px;
+}
+
+/* ====responsive hot deal section stert==== */
+.hot-deal-container{
+    width:576px;
+    flex-direction: column-reverse;
+    margin-top:30px;
+}
+.hot-deal-text-container{
+width: 500px;
+margin:0;
+padding-left: 100px;
+}
+.hot-deal-text-container button{
+    width:50%;
+    margin-top:40px
 }
 }
